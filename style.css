@@ -107,6 +107,7 @@ footer{
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
   .container {
+    margin-top: 5%;
     background-position: center center;
     background-size: cover;
     flex-direction: column;
@@ -114,12 +115,8 @@ footer{
     align-content: center;
   }
 
-  .button-container{
-    margin-top: 60%;
-  }
-
   .text-container{
-    margin-bottom: 30%;
+    margin: 30% 80%;
     width: 80%;
   }
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Teller</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="button-container">
+            <button id="button">Tell Me A Joke!</button>
+            <audio id="audio" controls hidden></audio>
+        </div>
+        <div class="text-container">
+            <p class="joke" id="joke">Here Goes The Joke!</p>
+            <p class="description">This project makes a request to a <a target="_blank" href="https://sv443.net/jokeapi/v2/">JokeAPI</a> which gets a random joke everytime the button is clicked by the user which is then passed on to a text-to-speech API <a target="_blank" href="http://www.voicerss.org/api/">(Voice RSS).</a>. </p>
+        </div>
+    </div>
+
+    <footer>
+        Karen Weng Liang &#169 2020
+    </footer>
+
+    <!-- Script -->
+    <script type='text/javascript' src="config.js"></script>
+    <script type='text/javascript' src="script.js"></script>
+</body>
+
+</html>
